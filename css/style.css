@@ -67,8 +67,7 @@ body{
 }
 .bodyHome {
     position: relative;
-    width: 100%px;
-
+    width: 100%;
 }
 
 .twitLink{
@@ -120,7 +119,7 @@ h2{
 .lightsBackground{
     z-index: 1;
     position: absolute;
-    height: 3463px;
+    height: 3245px;
     width: 100%;
     background-image: url(../img/bg_lights.png);
 }
@@ -128,6 +127,6 @@ h2{
     z-index: 1;
     position: absolute;
     height: 2983px;
-    width: 100%;
+    width: 1920px;
     background-image: url(../img/image_bg.png);
 }
