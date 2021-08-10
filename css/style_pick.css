@@ -17,7 +17,7 @@
     align-items: center;
 }
 .pickHeader h2{
-    margin: 0 0 0 90px;
+    margin: 0 0 0 110px;
 }
 .pickHeaderX{
     width: 12px;
@@ -38,4 +38,41 @@
     letter-spacing: -0.02em;
     color: #FFFFFF;
     margin: 0 0 0 40px;
+}
+.pickNav{
+    margin: 50px 0 0 0;
+    height: 90px;
+}
+.pickNavLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pickNavLinks a{
+    display: block;
+    padding: 33px 0;
+    width: 282px;
+    height: 100%;
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    opacity: 0.5;
+    border-bottom: 2px solid #41EAD4;
+}
+.pickNavLinks a:hover{
+    height: 86px;
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #41EAD4;
+    border-bottom: 4px solid #41EAD4;
 }
