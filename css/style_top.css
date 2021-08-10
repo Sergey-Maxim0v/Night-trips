@@ -107,15 +107,7 @@
 .subHeading{
     text-transform: uppercase;
 }
-.boldText{
-    font-family: Larsseit;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 0.1em;
-    color: #FFFFFF;
-}
+
 .topTextContent{
     font-family: Larsseit;
     font-style: normal;
@@ -190,31 +182,5 @@
     width: 24px;
     margin: 22px 0px;
 }
-.socTwit a{
-    display: block;
-    height: 24px;
-    width: 24px;
-    background-image: url(../img/twit_ikon.svg);
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-.socInst a{
-    display: block;
-    height: 24px;
-    width: 24px;
-    background-image: url(../img/instagram_ikon.svg);
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-.socFbook a{
-    display: block;
-    height: 24px;
-    width: 24px;
-    background-image: url(../img/fbook_ikon.svg);
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
+
 /*___soc_end___________*/

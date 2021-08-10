@@ -61,10 +61,49 @@ body{
     font-family: "Larsseit";
     color: #FFFFFF;
 }
-.bodyHome {
-    position: relative;
+.body{
     width: 1920px;
     margin: 0 auto;
 }
+.bodyHome {
+    position: relative;
+    width: 100%px;
 
-/*__оформление_кнопки_меню_ вверху____*/
+}
+
+.twitLink{
+    display: block;
+    height: 24px;
+    width: 24px;
+    background-image: url(../img/twit_ikon.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.instLink{
+    display: block;
+    height: 24px;
+    width: 24px;
+    background-image: url(../img/instagram_ikon.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.FbooktLink{
+    display: block;
+    height: 24px;
+    width: 24px;
+    background-image: url(../img/fbook_ikon.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.boldText{
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
