@@ -10,6 +10,9 @@
     z-index: 1;
     top: -88px;
 }
+
+/*___nav___________*/
+
 .topNav{
     position: relative;
     z-index: 2;
@@ -79,3 +82,48 @@
     position: absolute;
     margin: -10px auto auto 151px;
 }
+/*___nav_end_______*/
+
+/*___Text__________*/
+.topText{
+    position: relative;
+    z-index: 4;
+    height: 522px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.topHeading{
+    font-family: Noe Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 120px;
+    line-height: 153px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.subHeading{
+    text-transform: uppercase;
+}
+.boldText{
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+.topTextContent{
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    width: 645px;
+}
+/*___text_end__________*/
