@@ -9,4 +9,33 @@
     height: 100%;
     position: relative;
     margin: 0 auto;
+    border: green 1px solid;
+}
+.pickHeader{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.pickHeader h2{
+    margin: 0 0 0 90px;
+}
+.pickHeaderX{
+    width: 12px;
+    height: 12px;
+    background-image: url(../img/x.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0 0 0 40px;
+}
+.pickHeaderText{
+    width: 350px;
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    margin: 0 0 0 40px;
 }
