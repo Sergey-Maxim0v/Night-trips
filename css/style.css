@@ -107,3 +107,27 @@ body{
     letter-spacing: 0.1em;
     color: #FFFFFF;
 }
+h2{
+    font-family: Noe Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.lightsBackground{
+    z-index: 1;
+    position: absolute;
+    height: 3463px;
+    width: 100%;
+    background-image: url(../img/bg_lights.png);
+}
+.homeBackgroundShadow{
+    z-index: 1;
+    position: absolute;
+    height: 2983px;
+    width: 100%;
+    background-image: url(../img/image_bg.png);
+}
