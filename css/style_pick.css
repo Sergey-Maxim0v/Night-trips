@@ -1,6 +1,7 @@
 .homePick{
     width: 100%;
     height: 1301px;
+    position: relative;
 }
 
 .pick{
@@ -9,7 +10,6 @@
     height: 100%;
     position: relative;
     margin: 0 auto;
-    border: green 1px solid;
 }
 .pickHeader{
     display: flex;
@@ -44,6 +44,7 @@
     height: 90px;
 }
 .pickNavLinks{
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +53,7 @@
     display: block;
     padding: 33px 0;
     width: 282px;
-    height: 100%;
+    height: 90px;
     font-family: Larsseit;
     font-style: normal;
     font-weight: bold;
@@ -65,7 +66,7 @@
     border-bottom: 2px solid #41EAD4;
 }
 .pickNavLinks a:hover{
-    height: 86px;
+    height: 88px;
     font-family: Larsseit;
     font-style: normal;
     font-weight: bold;
@@ -76,3 +77,169 @@
     color: #41EAD4;
     border-bottom: 4px solid #41EAD4;
 }
+
+.pickDotted{
+    z-index: 3;
+    height: 230px;
+    width: 230px;
+    background-image: url(../img/pick_dots.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 226px;
+    left: 0;
+}
+.pickContein{
+    z-index: 4;
+    height: 860px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 95px;
+}
+.pickNumbertext{
+    position: absolute;
+    top: 660px;
+    left: 0;
+    z-index: 6;
+    width: 210px;
+    height: 115px;
+
+}
+.pickLine_{
+    width: 172px;
+    height: 2px;
+    background: #41EAD4;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.pickLine{
+    width: 2px;
+    height: 12px;
+    background: #41EAD4;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.pickNumber{
+    margin: 0;
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.15em;
+    color: #41EAD4;
+}
+.pickNumbertext p{
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+}
+.pickImg{
+    z-index: 5;
+    position: relative;
+    width: 486px;
+    height: 607px;
+    background-image: url(../img/pick_img.png);
+    border-radius: 8px;
+    margin: 150px 0 0 0;
+}
+.pickImgButtons{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 6;
+    width: 130px;
+    height: 65px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.pickLeft{
+    width: 64px;
+    height: 100%;
+    border-radius: 8px 0 0 0;
+    background-color: #011627;
+    border-right: 1px solid #133149;
+}
+.pickRight{
+    width: 65px;
+    height: 100%;
+    border-radius: 0 0 8px 0;
+    background-color: #011627;
+}
+.pickDescription{
+    z-index: 6;
+    width: 490px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 217px 0 190px 0;
+}
+.pickDescription p{
+    width: 100%;
+}
+.pickDescrText{
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.pickDescription a{
+    display: block;
+    width: 282px;
+    height: 65px;
+    background: #00C9E0;
+    box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
+    border-radius: 183px;
+    padding: 19px 0;
+    text-align: center;
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 190%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.pickShare{
+    z-index: 6;
+    position: relative;
+    padding: 672px 0 0 0;
+}
+.pickSharelinks{
+    width: 118px;
+    display: flex;
+    justify-content: space-between;
+    margin: 18px 14px 0 0;
+}
+.pickShareLine_{
+    height: 2px;
+    width: 133px;
+    background: #41EAD4;
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+    margin: 18px 0 0 0;
+}
+.pickShareLine{
+    height: 31px;
+    width: 2px;
+    background: #41EAD4;
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+}
+
