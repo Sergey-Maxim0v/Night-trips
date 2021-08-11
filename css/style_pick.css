@@ -124,7 +124,7 @@
     left: 0px;
 }
 .pickNumber{
-    margin: 0;
+    margin: 13px 0 5px 0;
     font-family: Larsseit;
     font-style: normal;
     font-weight: 800;
@@ -213,6 +213,15 @@
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+.pickDescription a::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 30px;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    margin: -14px auto auto 265px;
 }
 .pickShare{
     z-index: 6;
