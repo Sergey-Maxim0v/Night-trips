@@ -1,0 +1,76 @@
+.homeAbout{
+    z-index: 2;
+    height: 1230px;
+    width: 1920px;
+}
+.about{
+    position: relative;
+    margin: 0 auto;
+    z-index: 2;
+    height: 100%;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutDiscription{
+    z-index: 3;
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 86px 0 0;
+}
+.aboutDiscription p{
+    margin: 15px 0;
+    font-family: Larsseit;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+.aboutLink{
+    display: block;
+    width: 282px;
+    height: 65px;
+    background: #00C9E0;
+    box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
+    border-radius: 183px;
+    padding: 19px 0;
+    text-align: center;
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 190%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.aboutLink::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 30px;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    margin: -14px auto auto 265px;
+}
+.aboutPhoto{
+    border:red 1px solid;
+    height: 790px;
+    width: 790px;
+
+}
+
+
+.aboutDotted{
+    height: 470px;
+    width: 70px;
+    background-image: url(../img/about_dots.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
