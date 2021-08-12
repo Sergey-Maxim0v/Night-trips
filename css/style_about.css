@@ -65,9 +65,13 @@
     flex-wrap:wrap;
     position: relative;
 }
-.aboutPhoto div div{
+.aboutPhoto div{
     height: 395px;
     width: 395px;
+    opacity: 0.5;
+}
+.aboutPhoto div:hover{
+    opacity: 1;
 }
 .aboutPhoto_1{
     z-index: 3;
@@ -97,40 +101,7 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.aboutPhoto div div:hover{
-    z-index: 6;
-}
-.aboutPhoto div div:active{
-    z-index: 6;
-}
-.shadowPhoto{
-    z-index: 5;
-    background-image: url(../img/shadow.png);
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background: rgba(196, 196, 196, 0.3);
-}
-.aboutShadow_1{
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.aboutShadow_2{
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-.aboutShadow_3{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-.aboutShadow_4{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
+
 .aboutDotted{
     height: 470px;
     width: 70px;
