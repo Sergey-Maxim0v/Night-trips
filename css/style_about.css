@@ -1,7 +1,7 @@
 .homeAbout{
     z-index: 2;
     height: 1230px;
-    width: 1920px;
+    width: 100%;
 }
 .about{
     position: relative;
