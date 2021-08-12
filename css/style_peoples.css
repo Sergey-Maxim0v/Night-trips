@@ -1,0 +1,91 @@
+.homePeoples{
+    height: 1448px;
+    width: 1680px;
+    background: #011627;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0 100px 0;
+}
+.homePeoples h4{
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.15em;
+}
+.peoplesBlocks{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1044px;
+    height: 1032px;
+}
+.peoplesBlockContent{
+    margin: 0 0 24px 0;
+    background: #02223B;
+    box-shadow: 0px 20px 30px rgba(0, 201, 224, 0.03);
+    border-radius: 5px;
+    width: 510px;
+    height: 504px;
+    padding: 75px 75px 75px 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.blockTitle::before{
+    content: "";
+    display: block;
+    height: 25px;
+    width: 32px;
+    position: absolute;
+    margin: 0 0 0 -40px;
+    background-image: url(../img/quotes.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.blockText{
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 190%;
+    color: #FFFFFF;
+}
+.blockPeple{
+    width: 360px;
+    height: 128px;
+    display: flex;
+    justify-content: flex-start;
+}
+.blockPhoto{
+    width: 85px;
+    height: 85px;
+    background-image: url(../img/peples_photo.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 4px;
+    margin: 0 12px 0 0;
+}
+.blockNameRow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 170%;
+    display: flex;
+    align-items:flex-start;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
