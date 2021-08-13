@@ -9,6 +9,16 @@
     justify-content: space-between;
     padding: 100px 0 100px 0;
 }
+.homePeoples::before{
+    z-index: 3;
+    content: "";
+    display: block;
+    width: 2px;
+    height: 80px;
+    background: linear-gradient(180deg, #09F4F4 0%, #00C9E0 100%);
+    border-radius: 13px;
+    margin: -140px 0 0 0;
+}
 .homePeoples h4{
     font-family: Larsseit;
     font-style: normal;

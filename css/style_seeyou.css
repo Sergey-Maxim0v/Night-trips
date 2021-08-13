@@ -1,0 +1,22 @@
+.homeSeeyou{
+    height: 320px;
+    width: 100%;
+    background: #011627;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.homeSeeyou h4{
+    width: 390px;
+    height: 62px;
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.07em;
+    color: #FFFFFF;
+    margin: 30px 0;
+}
