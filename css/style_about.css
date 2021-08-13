@@ -16,6 +16,7 @@
 .aboutDiscription{
     z-index: 3;
     width: 410px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -30,6 +31,9 @@
     line-height: 150%;
     letter-spacing: -0.02em;
     color: #FFFFFF;
+}
+.aboutText{
+    font-weight: 300;
 }
 .aboutLink{
     display: block;
@@ -48,6 +52,7 @@
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin: 15px 0 0 0;
 }
 .aboutLink::after{
     content: "";

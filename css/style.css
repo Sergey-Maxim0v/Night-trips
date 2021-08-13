@@ -69,7 +69,6 @@ body{
     position: absolute;
     top: 0px;
     overflow: auto;
-    border: 1px red solid;
 }
 .twitLink{
     display: block;
