@@ -124,14 +124,15 @@ h2{
     width: 100%;
     background-image: url("../img/top_background.png");
     background-position: 0 0;
-    background-size: auto 100%;
+    background-repeat: repeat-y;
+    background-size: 100% auto;
     overflow: visible;
 }
 .topsocbackground{
     height: 377px;
     width: 100%;
     position:absolute;
-    top: 817px;
+    bottom: 0;
     z-index: 2;
     background: linear-gradient(180deg, rgba(1, 22, 39, 0) 0%, #011627 76.64%, #011627 100%);
     overflow: visible;
@@ -156,6 +157,7 @@ h2{
     width: 100%;
     background-image: url(../img/image_bg.png);
     background-position: 0 0;
-    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
     overflow: visible;
 }
