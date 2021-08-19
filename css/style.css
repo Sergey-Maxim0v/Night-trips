@@ -125,7 +125,7 @@ h2{
     background-image: url("../img/top_background.png");
     background-position: 0 0;
     background-repeat: repeat-y;
-    background-size: 100% auto;
+    background-size: 100% 100%;
     overflow: visible;
 }
 .topsocbackground{
@@ -158,6 +158,6 @@ h2{
     background-image: url(../img/image_bg.png);
     background-position: 0 0;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: 100% 100%;
     overflow: visible;
 }
