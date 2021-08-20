@@ -1,6 +1,7 @@
 .homePeoples{
     height: 1448px;
-    width: 1680px;
+    width: 90%;
+    margin: 0 auto;
     background: #011627;
     border-radius: 8px;
     display: flex;
