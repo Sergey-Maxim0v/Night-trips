@@ -1,163 +1,224 @@
-*{ padding: 0; margin: 0; border: 0;}
-*,*:before,*::after{ -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-:focus,:active{outline: none;}
-a:footer,header,aside{display: block;}
-
-html,body{
-    height: 100%;
-    width: 100%;
-    font-size: 100%;
-    line-height: 1;
-    font-size: 14px;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
-input,button,textarea{font-family:inherit;}
 
-input::-ms-clear{display: none;}
-button{cursor: pointer;}
-button::-moz-focus-inner {padding:0;border:0;}
-a, a:visited{text-decoration: none;}
-a:hover{text-decoration: none;}
-ul li{list-style: none;}
-img{vertical-align: top;}
+*, *:before, *::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
-/*________________________________________*/
+:focus, :active {
+  outline: none;
+}
 
+footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
 
 @font-face {
-    font-family: "Playfair Display";
-    font-weight: 700;
-    src: url(../fonts/NoeDisplay/NoeDisplay-Bold.woff2);
+  font-family: "Playfair Display";
+  font-weight: 700;
+  src: url(../fonts/NoeDisplay/NoeDisplay-Bold.woff2);
 }
+
 @font-face {
-    font-family: "Noe Display";
-    font-weight: 700;
-    src: url(../fonts/NoeDisplay/NoeDisplay-Bold.woff2);
+  font-family: "Noe Display";
+  font-weight: 700;
+  src: url(../fonts/NoeDisplay/NoeDisplay-Bold.woff2);
 }
+
 @font-face {
-    font-family: "Larsseit";
-    font-weight: 700;
-    src: url(../fonts/Larsseit/Larsseit-Bold.woff2);
+  font-family: "Larsseit";
+  font-weight: 700;
+  src: url(../fonts/Larsseit/Larsseit-Bold.woff2);
 }
+
 @font-face {
-    font-family: "Larsseit";
-    font-weight: 400;
-    src: url(../fonts/Larsseit/Larsseit.woff2);
+  font-family: "Larsseit";
+  font-weight: 400;
+  src: url(../fonts/Larsseit/Larsseit.woff2);
 }
+
 @font-face {
-    font-family: "Larsseit";
-    font-weight: 300;
-    src: url(../fonts/Larsseit/Larsseit-Light.woff2);
+  font-family: "Larsseit";
+  font-weight: 300;
+  src: url(../fonts/Larsseit/Larsseit-Light.woff2);
 }
-body{
-    background-color: #011627;
-    font-family: "Larsseit";
-    color: #FFFFFF;
+
+body {
+  background-color: #011627;
+  font-family: "Larsseit";
+  color: #FFFFFF;
 }
-.Home{
-    z-index: 1;
-    height: 5885px;
-    position: relative;
-    display: flex;
-    justify-content: center;
+
+.pageHome{
+  width: 100%;
 }
-.contentHome{
-    z-index: 2;
-    position: absolute;
-    top: 0px;
-    overflow: auto;
+
+.Home {
+  width: 100%;
+  z-index: 1;
+  height: 5885px;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
-.twitLink{
-    display: block;
-    height: 24px;
-    width: 24px;
-    background-image: url(../img/twit_ikon.svg);
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+
+.contentHome {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  overflow: auto;
 }
-.instLink{
-    display: block;
-    height: 24px;
-    width: 24px;
-    background-image: url(../img/instagram_ikon.svg);
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+
+.twitLink {
+  display: block;
+  height: 24px;
+  width: 24px;
+  background-image: url(../img/twit_ikon.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
-.FbooktLink{
-    display: block;
-    height: 24px;
-    width: 24px;
-    background-image: url(../img/fbook_ikon.svg);
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+
+.instLink {
+  display: block;
+  height: 24px;
+  width: 24px;
+  background-image: url(../img/instagram_ikon.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
-.boldText{
-    font-family: Larsseit;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 0.1em;
-    color: #FFFFFF;
+
+.FbooktLink {
+  display: block;
+  height: 24px;
+  width: 24px;
+  background-image: url(../img/fbook_ikon.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
-h2{
-    font-family: Noe Display;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 72px;
-    line-height: 110%;
-    text-align: center;
-    letter-spacing: -0.02em;
-    color: #FFFFFF;
+
+.boldText {
+  font-family: 'Larsseit';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
 }
-.topBackground{
-    z-index: 1;
-    position: absolute;
-    top: -88px;
-    height: 1282px;
-    width: 100%;
-    background-image: url("../img/top_background.png");
-    background-position: 0 0;
-    background-repeat: repeat-y;
-    background-size: 100% 100%;
-    overflow: visible;
+
+h2 {
+  font-family: 'Noe Display';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 110%;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
 }
-.topsocbackground{
-    height: 377px;
-    width: 100%;
-    position:absolute;
-    bottom: 0;
-    z-index: 2;
-    background: linear-gradient(180deg, rgba(1, 22, 39, 0) 0%, #011627 76.64%, #011627 100%);
-    overflow: visible;
+
+.topBackground {
+  z-index: 1;
+  position: absolute;
+  top: -88px;
+  height: 1282px;
+  width: 100%;
+  background-image: url("../img/top_background.png");
+  background-position: 0 0;
+  background-repeat: repeat-y;
+  background-size: 100% 100%;
+  overflow: visible;
 }
-.lightsBackground{
-    z-index: 1;
-    position: absolute;
-    top: 1194px;
-    height: 3245px;
-    width: 100%;
-    background-image: url(../img/bg_lights.png);
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: 100vw 3245px;
-    overflow: visible;
+
+.topSocBackground {
+  height: 377px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  background: linear-gradient(180deg, rgba(1, 22, 39, 0) 0%, #011627 76.64%, #011627 100%);
+  overflow: visible;
 }
-.homeBackgroundShadow{
-    z-index: 1;
-    position: absolute;
-    bottom: 0;
-    height: 2983px;
-    width: 100%;
-    background-image: url(../img/image_bg.png);
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    overflow: visible;
+
+.lightsBackground {
+  z-index: 1;
+  position: absolute;
+  top: 1194px;
+  height: 3245px;
+  width: 100%;
+  background-image: url(../img/bg_lights.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100vw 3245px;
+  overflow: visible;
+}
+
+.homeBackgroundShadow {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  height: 2983px;
+  width: 100%;
+  background-image: url(../img/image_bg.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: visible;
 }
